@@ -13,3 +13,23 @@ h1 {
 h2 {
     font-size: 20px;
 }
+
+<!--font-familyプロパティがフォントの種類-->
+.test1 {
+    font-family: serif;
+  }
+.test2 {
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  }
+.test3{
+      font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+  }
+.pro1{
+    font-family: "ヒラギノ明朝Pro","Hiragino Mincho Pro", sans-serif;
+}
+.pro2{
+    font-family:"遊明朝体","YuMincho", sans-serif;
+}
+.pro3{
+    font-family:"はんなり明朝","HannariMincho",sans-serif;
+} 
