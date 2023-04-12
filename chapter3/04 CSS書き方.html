@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <title>CSS書き方</title>
+  <meta name="description" content="要素の中の要素に指定する">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+<h2><u>書き方〜その１〜</u></h2>
+ h1<!--セレクター-->{</br>
+    color<!--プロパティ-->: red<!--値-->;</br>
+ }
+ <h2><u>書き方〜その2〜</u></h2>
+ h1{ color: red; }
+
+<p>名前</p>
+<table border="1">
+    <tr>
+     <th>名前</th>
+     <th>用途</th>
+    </tr>
+    <tr>
+     <td>セレクター</td>
+     <td>どの部分を装飾するのかの指定</td>
+    </tr>
+    <tr>
+        <td>プロパティ</td>
+        <td>セレクターで指定された部分の何を変えるのかを書く。</br>
+            例：文字色、文字サイズ、背景画像
+        </td>
+    </tr>
+    <tr>
+        <td>値</td>
+        <td>見た目をどのように変えるのか</br>
+            例：文字色を何色にするか、どの画像を使うのか
+        </td>
+    </tr>
+</table>
+
+<p>ルール</p>
+ <table border="1">
+    <tr>
+     <th>方法</th>
+     <th>例</th>
+    </tr>
+    <tr>
+     <td>半角英数字で書く</td>
+     <td>h1 { color: red;}</td>
+    </tr>
+    <tr>
+        <td>基本小文字で記述する</td>
+        <td>h1 { color: red;}</td>
+    </tr>
+    <tr>
+        <td>複数のセクレターに指定をするときはカンマで区切る</td>
+        <td>h1,p { color: red;}</td>
+    </tr>
+    <tr>
+        <td>複数の装飾を指定をするときはセミコロンで区切る
+            <!--プロパティが１つしかない場合や
+            一番最後のプロパティにはセミコロンが不要だが、
+        別のプロパティを追加する時もあるので付ける癖をつける-->
+        </td>
+        <td>h1{ color: red; font-size: 20px; }</td>
+    </tr>
+ </table>
+
+ <p>単位を指定する<!--値が0を除く--></p>
+ <table>
+ <table border="1">
+    <tr>
+     <th>単位</th>
+     <th>読み方</th>
+     <th>説明</th>
+     <th>例</th>
+    </tr>
+    <tr>
+     <td>px(絶対値：指定したサイズから変更はない)</td>
+     <td>ピクセル</td>
+     <td>画面上の最小単位（1ピクセル）を基準とした単位</td>
+     <td rowspan="3">h1 { font-size: 20px;}</td>
+    </tr>
+    <tr>
+     <td>%</td>
+     <td>パーセント</td>
+     <td>親要素のサイズを基準に割合で指定する単位</td>
+    </tr>
+    <tr>
+     <td>rm（相対値：基準となる要素のサイズによって変動する）</td>
+     <td>レム</td>
+     <td>ルート要素(html要素)に指定されたサイズを基準とした単位</td>
+    </tr>
+ </table>
+</table>
+
+<h2><u>要素の中に要素を指定する</u></h2>
+<div>
+ <p>まんまる子猫</p>
+</div>
+ <p>のんびり子猫</p>
+</body>
+</html>
