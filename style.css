@@ -1,2 +1,12 @@
+@charset "UTF-8";
+.practice {
+    background-color: #fffeee;
+}
+.practice1{
+    color: #0bd;
+}
+.practice2{
+    fount-size: 20px;
+}
 h1 { color: #f00; }
 p { font-size: 18px; }
