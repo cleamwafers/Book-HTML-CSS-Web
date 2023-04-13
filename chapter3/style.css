@@ -64,4 +64,9 @@ h2 {
 .line_height_3{
     line-height: 2.5;
 }
-
+.text1{
+    text-align: left;
+}
+.text2{
+    text-align: justify; 
+}
