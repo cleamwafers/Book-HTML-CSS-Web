@@ -54,3 +54,14 @@ h2 {
 .bold_font{
     font-weight: bold;
 }
+
+.line_height_1{
+    line-height: 1;
+}
+.line_height_2{
+    line-height: 1.7;
+}
+.line_height_3{
+    line-height: 2.5;
+}
+
