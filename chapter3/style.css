@@ -24,12 +24,29 @@ h2 {
 .test3{
       font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
   }
+
 .pro1{
+    font-family: "明朝体","Mincho", sans-serif;
+} 
+
+.pro2{
     font-family: "ヒラギノ明朝Pro","Hiragino Mincho Pro", sans-serif;
 }
-.pro2{
+.pro3{
     font-family:"遊明朝体","YuMincho", sans-serif;
 }
-.pro3{
+.pro4{
     font-family:"はんなり明朝","HannariMincho",sans-serif;
+} 
+.pro5{
+    font-family:"ゴシック体"," Gothic",sans-serif;
+} 
+.pro6{
+    font-family:"ヒラギノ角ゴPro","Hiragino Kaku Gothic Pro",sans-serif;
+} 
+.pro7{
+    font-family:"遊ゴシック体","Yu Gothic",sans-serif;
+} 
+.pro8{
+    font-family:"モトヤシーダ","M",sans-serif;
 } 
