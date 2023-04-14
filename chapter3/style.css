@@ -78,3 +78,14 @@ h2 {
 .color{
     display: block;
 }
+
+.word1{
+    color: #0bd;
+}
+.word2{
+    color: navy;
+}
+
+.word3{
+    color: rgba(10, 130, 165, .5);
+}
