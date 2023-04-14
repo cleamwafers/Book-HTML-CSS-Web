@@ -89,3 +89,10 @@ h2 {
 .word3{
     color: rgba(10, 130, 165, .5);
 }
+
+.backcolor1{
+    background-color: #fee;
+}
+.backcolor2{
+    background-color: #faa;
+}
