@@ -96,3 +96,54 @@ h2 {
 .backcolor2{
     background-color: #faa;
 }
+
+.color_sample1{
+    text-align: center;
+    color: white;
+    background-color:red;
+}
+.color_sample2{
+    text-align: center;
+    color: white;
+    background-color:orange;
+}
+.color_sample3{
+    text-align: center;
+    color: white;
+    background-color:yellow;
+}
+.color_sample4{
+    text-align: center;
+    color: white;
+    background-color:green;
+}
+.color_sample5{
+    text-align: center;
+    color: white;
+    background-color:blue;
+}
+.color_sample6{
+    text-align: center;
+    color: white;
+    background-color:purple;
+}
+.color_sample7{
+    text-align: center;
+    color: white;
+    background-color:pink;
+}
+.color_sample8{
+    text-align: center;
+    color: white;
+    background-color:brown;
+}
+.color_sample9{
+    text-align: center;
+    color: black;
+    background-color:white;
+}
+.color_sample10{
+    text-align: center;
+    color: white;
+    background-color:black;
+}
