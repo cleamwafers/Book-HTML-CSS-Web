@@ -1,26 +1,30 @@
-.bar-graph-wrap {
-  position: relative;
-  height: 350px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+.bar{
+  max-width: 600px;
+  width: 100%;
+  margin: 1em;
+  color: black;
+  padding: 0.25em;
+  animation: bar-animation 1 2s;
 }
 
-.bar-graph-wrap .graph {
-  height: 50px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+.bar1{
   background: rgba(247,198,189);
-  width: 70%;
-  border-radius: 0 4px 4px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+  max-width: 70%;
+}
+.bar2{
+  background:rgba(58,172,173);
+  max-width: 25%;
+}
+.bar3{
+  background: rgba(249,233,0);
+  max-width: 5%;
 }
 
-.graph span {
-  font-size: 14px;
-  color: #000;
+@keyframes bar-animation{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
 }
