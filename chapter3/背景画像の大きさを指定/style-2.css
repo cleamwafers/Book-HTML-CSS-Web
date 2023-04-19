@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div{
+    background-image: url(bg-airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+/* 画像の縦横比は保持したまま。画像が全て表示される。表示領域の方が画像より大きい場合は余白が出来る。*/
+    height: 100vh;
+}
+p {
+    text-align: center;
+    padding-top: 30px;
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div{
+    background-image: url(bg-airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/* 表示領域を埋め尽くす。画像の縦横比は保持したまま。表示領域より画像が大きい場合は画像が切れる。*/
+    height: 100vh;
+}
+p {
+    text-align: center;
+    padding-top: 30px;
+}
