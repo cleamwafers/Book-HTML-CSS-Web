@@ -3,5 +3,5 @@ body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-position: 30px 80px;
-    /*画像を上部センターに表示する*/
+    /*画像を左から30px 80pxに表示する*/
 }
