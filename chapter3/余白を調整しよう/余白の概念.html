@@ -9,14 +9,48 @@
 </head>
 
 <body>
-    <div>
+    <div class="text">
         <p>要素の上と左に余白をつけます</p>
         <p>margin-top&margin-left</p>
+    </div>
+    <div class="split left-box">
+        <u>余白の概念</u>
+            <li>margin: 要素を四角い入れ物(box)と考えた時、</br>
+                その入れ物のフチから中身(コンテンツ)までの距離。</li>
+                <span>↑</span>
+            <li>border: marginとpaddingの間の枠線のこと</li>
+                <span>↓</span>
+            <li>padding: 要素を四角い入れ物(box)と考えた時、</br>
+                入れ物のフチから中身(コンテンツ)までの距離。</li>
         <u>主な値</u>
-        <li>数値： px、rem、%など</li>
-        <li>auto: 関連するプロパティの値によって自動設定</li>
-        <li>margin-<u style="color:red">top</u>か<u style="color:red">bottom</u>か<u style="color:red">left</u>か
-            <u style="color:red">right</u></li>
+            <li>数値： px、rem、%など</li>
+            <li>auto: 関連するプロパティの値によって自動設定</li>
+            <li>margin-<u style="color:red">top</u>か<u style="color:red">bottom</u>か<u style="color:red">left</u>か
+                <u style="color:red">right</u></li>
+    </div>
+    <div class="split right-box">
+        <table border="1">
+            <tr><th>書き方</th>
+                <th>例</th>
+            </tr>
+            <tr>
+                <td>margin: 四辺全て;</td>
+                <td>margin: 10px;</td>
+            </tr>
+            <tr>
+                <td>margin: 上下 左右;</td>
+                <td>margin: 10px 20px;</td>
+            </tr>
+            <tr>
+                <td>margin: 上下 左右 下;</td>
+                <td>margin: 10px 20px 30px;</td>
+            </tr>
+            <tr>
+                <td>margin: 上 右 下 左;</td>
+                <td>margin: 10px 20px 30px 40px;</td>
+            </tr>
+            
+        </table>
     </div>
 </body>
 

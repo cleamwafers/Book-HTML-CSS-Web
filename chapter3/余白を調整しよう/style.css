@@ -1,12 +1,34 @@
 @charset "UTF-8";
-div {
+.text {
   background: #0bd;
   margin-top: 30px;
   margin-left: 100px;
 }
 
 /*わかりやすいように地色を広げています*/
-div {
+.text {
   width: 500px;
   height: 300px;
+}
+span {
+  margin-left: 100px;
+}
+u {
+  border: dashed;
+}
+
+html,body {
+  height: 100%;
+}
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.left-box {
+  left: 0;
+}
+.right-box {
+  right: 0;
+  overflow-y: scroll;
 }
