@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.style{
+    border-style: none;
+    /*線を非表示*/
+}
+.style1{
+    margin-top: 20px;
+    border-width: thick;
+    /*線を太く表示*/
+    border-style: solid;
+    /*線を一本表示*/
+}
+.style2{
+    margin-top: 20px;
+    border-style: double;
+    /*2本の実線*/
+}
+.style3{
+    margin-top: 20px;
+    border-style: dashed;
+    /*破線*/
+}
+.style4{
+    margin-top: 20px;
+    border-style: dotted;
+    /*点線*/
+}
+.style5{
+    margin-top: 20px;
+    border-style: groove;
+    /*立体的な谷型の線*/
+}
+.style6{
+    margin-top: 20px;
+    border-style: ridge;
+    /*立体的な山型の線*/
+}
+.style7{
+    margin-top: 20px;
+    border-style: inset;
+    /*囲まれた部分が凹んで見える立体的な線*/
+}
+.style8{
+    margin-top: 20px;
+    border-style: outset;
+    /*囲まれた部分が浮き上がって見える立体的な線*/
+}
+.style9{
+    margin-top: 20px;
+    border-width: 4px;
+    border-style: double dotted solid ridge;
+}
+.box1{
+    padding: 10px;
+}
