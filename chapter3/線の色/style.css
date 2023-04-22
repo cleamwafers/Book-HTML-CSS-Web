@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.test1{
+    border-style: solid;
+    border-color: #0bd;
+}
+p{
+    border-style: solid;
+    border-color: tomato;
+}
+.test2{
+    border-style: solid;
+    border-color: tan #0bd tomato #000;
+}
