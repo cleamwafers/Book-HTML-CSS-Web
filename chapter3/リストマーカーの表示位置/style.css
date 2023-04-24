@@ -1,0 +1,12 @@
+@charset "UTF-8";
+ul{
+    list-style-position: outside;
+    /*ボックスの外側に表示*/
+}
+ol{
+    list-style-position: inside;
+     /*ボックスの内側に表示*/
+}
+li{
+    background-color: lightblue;
+  }
