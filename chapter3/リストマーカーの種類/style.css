@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample1{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.type1{
+    list-style-type: none;
+}
+.type2{
+    list-style-type: disc;
+}
+.type3{
+    list-style-type: circle;
+}
+.type4{
+    list-style-type: square;
+}
+.type5{
+    list-style-type:decimal;
+}
+.type6{
+    list-style-type: decimal-leading-zero;
+}
+.type7{
+    list-style-type: lower-roman;
+}
+.type8{
+    list-style-type: upper-roman;
+}
+.type9{
+    list-style-type: cjk-ideographic;
+}
+.type10{
+    list-style-type: hiragana;
+}
+.type11{
+    list-style-type: katakana;
+}
+.type12{
+    list-style-type: hiragana-iroha;
+}
+.type13{
+    list-style-type: katakana-iroha;
+}
+.type14{
+    list-style-type: lower-alpha;
+}
+.type15{
+    list-style-type: upper-alpha;
+}
+.type16{
+    list-style-type: lower-greek;
+}
+.type17{
+    list-style-type: hebrew;
+}
+.type18{
+    list-style-type: armenian;
+}
+.type19{
+    list-style-type: georgian;
+}
