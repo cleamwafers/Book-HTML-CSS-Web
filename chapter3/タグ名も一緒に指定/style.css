@@ -1,0 +1,5 @@
+@charset "UTF-8";
+p.blue{
+/*pタグのみ色が変わる*/
+    color: #0bd;
+}
