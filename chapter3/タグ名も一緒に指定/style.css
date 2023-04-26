@@ -3,3 +3,8 @@ p.blue{
 /*pタグのみ色が変わる*/
     color: #0bd;
 }
+.Blue{
+    color: #0bd;
+    text-align: center;
+    font-size: small;
+}
