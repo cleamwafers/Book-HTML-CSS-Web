@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.container{
+    display: flex;
+    justify-content: flex-start;
+    /*行の開始位置から配置。左揃え*/
+}
+.item {
+    background: flex-end;
+}
+.item{
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
