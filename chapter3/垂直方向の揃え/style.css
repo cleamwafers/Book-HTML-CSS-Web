@@ -5,6 +5,12 @@
     /*親要素の高さ、またはコンテンツの一番多い子要素の高さに合わせて広げて配置*/
     height:100vh;
 }
+.container2{
+    display: flex;
+    align-items: flex-start;
+    /*親要素の開始位置から配置。上揃え。*/
+    height:100vh;
+}
 .item{
     background: #0bd;
     color: #fff;
