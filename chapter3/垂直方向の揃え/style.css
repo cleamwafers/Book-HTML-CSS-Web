@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.container1{
+    display: flex;
+    align-items: stretch;
+    /*親要素の高さ、またはコンテンツの一番多い子要素の高さに合わせて広げて配置*/
+    height:100vh;
+}
+.item{
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px; 
+}
