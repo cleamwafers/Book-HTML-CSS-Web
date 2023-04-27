@@ -11,9 +11,30 @@
     /*親要素の開始位置から配置。上揃え。*/
     height:100vh;
 }
+.container3{
+    display: flex;
+    align-items: flex-end;
+    /*親要素の終点位置から配置。下揃え。*/
+    height:100vh;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    /*中央揃え。*/
+    height:100vh;
+}
+.container5{
+    display: flex;
+    align-items: baseline;
+    /*ベースラインで揃える。*/
+    height:100vh;
+}
 .item{
     background: #0bd;
     color: #fff;
     margin: 10px;
     padding: 10px; 
+}
+.item3{
+    font-size: 20px;
 }
