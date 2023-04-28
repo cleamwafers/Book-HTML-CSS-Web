@@ -10,14 +10,35 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    /*親要素のk開始位置から配置。上揃え。*/
+    /*親要素の開始位置から配置。上揃え。*/
     height: 300px;
 }
 .container3{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
-    /*親要素のk開始位置から配置。上揃え。*/
+    /*親要素の終点位置から配置。下揃え。*/
+    height: 300px;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /*中央揃え。*/
+    height: 300px;
+}
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /*最初と最後の子要素を上下の端に配置し、残りの要素は均等に間隔を開けて配置。*/
+    height: 300px;
+}
+.container6{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /*上下端にある子要素も含め、均等に間隔をあけて配置。*/
     height: 300px;
 }
 .item{
