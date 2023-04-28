@@ -51,3 +51,16 @@
     color: #fff;
     padding: 10px;
 }
+.item1{
+    background: #0bd;
+    color: #fff;
+    padding: 10px;
+    width:200px;
+    margin: 10px;
+    float: left; 
+}
+.container6::after{
+    content: "";
+    display: block;
+    clear: both;
+}
