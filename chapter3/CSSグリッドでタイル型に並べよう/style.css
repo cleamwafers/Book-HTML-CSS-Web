@@ -6,13 +6,19 @@
 .container2{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    /*３つずつ横に並ぶ*/
+    /*３つずつ横に並ぶ・右にスペースができる。画面の幅が狭くなるにつれて見切れてしまう。*/
 }
 .container3{
     display: grid;
     grid-template-columns: 200px 200px 200px;
     gap: 10px;
     /*グリッドアイテムの間に余白*/
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    /*親要素から見た子要素の大きさを割合で指定できる*/
 }
 .item{
     background: #0bd;
