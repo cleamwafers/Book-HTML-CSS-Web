@@ -1,10 +1,18 @@
 @charset "UTF-8";
 .container1{
     display: grid;
+     /*縦に並ぶ*/
 }
 .container2{
     display: grid;
     grid-template-columns: 200px 200px 200px;
+    /*３つずつ横に並ぶ*/
+}
+.container3{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    /*グリッドアイテムの間に余白*/
 }
 .item{
     background: #0bd;
