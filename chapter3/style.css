@@ -2,7 +2,7 @@
 div p {
     color: red;
 }
-<!--このようにすることでdivに囲まれたpタグのみ色が変わる-->
+/*このようにすることでdivに囲まれたpタグのみ色が変わる*/
 
 html {
     font-size: 100%;
@@ -14,7 +14,7 @@ h2 {
     font-size: 20px;
 }
 
-<!--font-familyプロパティがフォントの種類-->
+/*font-familyプロパティがフォントの種類*/
 .test1 {
     font-family: serif;
   }
