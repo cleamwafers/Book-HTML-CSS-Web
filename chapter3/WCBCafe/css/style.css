@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*コードの文字化けを防ぐ*/
+
+/*共通部分*/
+html{
+    font-size: 100%;
+    /*ブラウザーのデフォルトの文字サイズ（通常は16px）やユーザーが指定した文字サイズが正しく反映される*/
+}
+body{
+    font-family:"Yu Gothic Medium","遊ゴシック Medium",YuGothic,"遊ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+    line-height: 1.7;
+    /*行の高さを指定*/
+    color: #432;
+}
+a{
+    text-decoration: none;
+    /*aタグの傍線の指定*/
+}
+img{
+    max-width: 100%;
+    /*画像が親要素より大きくなることを防ぐ*/
+}
+/*HEADER*/
+.logo{
+    width: 210px;
+    margin-top: 14px;
+    /*ロゴ画像のサイズ指定*/
+}
