@@ -49,3 +49,10 @@ img{
     justify-content: space-between;
     /*両端の指定*/
 }
+.wrapper{
+    mac-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    /*中央に配置する指定*/
+    /*スマートフォン向けの余白指定*/
+}
