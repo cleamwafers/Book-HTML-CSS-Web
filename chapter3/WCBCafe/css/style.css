@@ -79,8 +79,24 @@ img{
     background: #0bd;
     color: #fff;
     border-radius: 5px;
+    /*要素の境界の外側の角を丸める*/
     padding: 18px 32px;
 }
 .button:hover{
+    /*カーソルをボタンに重ねた時の色を指定(擬似クラス)*/
     background: #0090aa;
+}
+/*大きな背景画像 /他のページでも使いまわしたいのでクラスとして設定している*/
+.big-bg{
+    background-size:  cover;
+    /*画像の縦横の比率を保ったまま画面いっぱいに広げる*/
+    background-position:  center top;
+}
+#home{
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+    /*画面の高さの指定*/
+}
+#home .page-title{
+    tect-transform: none;
 }
