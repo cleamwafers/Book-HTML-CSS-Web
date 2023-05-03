@@ -96,7 +96,7 @@ img{
     background-image: url(../images/main-bg.jpg);
     background-color: #0bd;
     background-blend-mode: color-burn;
-    /*明るくの処理になる*/
+    /*焼き込みカラーの処理になる*/
     min-height: 100vh;
     /*画面の高さの指定*/
 }
