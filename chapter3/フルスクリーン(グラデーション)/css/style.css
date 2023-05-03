@@ -93,11 +93,7 @@ img{
     background-position:  center top;
 }
 #home{
-    background-image: url(../images/main-bg.jpg);
-    background-color: #0bd;
-    /*重ねる色の指定・追加*/
-    background-blend-mode: hard-light;
-    /*ぬれんどモード、ハイライトの指定・追加*/
+    background-image: linear-gradient(#c9ffbf,#ffafbd);
     min-height: 100vh;
     /*画面の高さの指定*/
 }
