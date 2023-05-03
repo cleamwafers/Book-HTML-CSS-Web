@@ -95,8 +95,8 @@ img{
 #home{
     background-image: url(../images/main-bg.jpg);
     background-color: #0bd;
-    background-blend-mode: color-dodge;
-    /*明るくの処理になる*/
+    background-blend-mode: soft-light;
+    /*ソフトライトの処理になる*/
     min-height: 100vh;
     /*画面の高さの指定*/
 }
