@@ -325,5 +325,13 @@ aside p {
     .menu-content {
         margin-top: 20%;
     }
-    
+    .big-box {
+        /*ちぐはぐな大きさを指定した範囲やサイズのもどす。*/
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .big-box img {
+         /*ちぐはぐな大きさを指定した範囲やサイズのもどす。*/
+        height: auto;
+    }
 }
