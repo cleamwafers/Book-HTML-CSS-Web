@@ -214,7 +214,35 @@ aside p {
     color: #0bd;
     /*カーソルに合わせた際の装飾*/
 }
-/* モバイル版
+
+/* MENU
+------------------------------- */
+#menu {
+    background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
+}
+.menu-content {
+    max-width: 560px;
+    margin-top: 10%;
+}
+.menu-content .page-title {
+    text-align: center;
+}
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+.grid {
+    display: grid;
+    gap: 26px;
+    /*要素同士の余白*/
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /*横幅の指定：一列に３つの要素を横に並べる。画面の幅に合わせて自動で伸縮できる。*/
+    margin-top: 6%;
+    margin-bottom: 50px;
+  }
+  
+  /* モバイル版
 ------------------------------- */
 @media (max-width: 600px) {
     /*Media QueriesはWebページが表示された画面サイズに合わせて適用するCSSを切り替える機能。
@@ -287,39 +315,5 @@ aside p {
     .menu-content {
         margin-top: 20%;
     }
-    .grid {
-        display: grid;
-        gap: 26px;
-        grid-template-columns: repeat(3, 1fr);
-        margin-top: 6%;
-        margin-bottom: 50px;
-    }
     
 }
-/* MENU
-------------------------------- */
-#menu {
-    background-image: url(../images/menu-bg.jpg);
-    min-height: 100vh;
-}
-.menu-content {
-    max-width: 560px;
-    margin-top: 10%;
-}
-.menu-content .page-title {
-    text-align: center;
-}
-.menu-content p {
-    font-size: 1.125rem;
-    margin: 10px 0 0;
-}
-.grid {
-    display: grid;
-    gap: 26px;
-    /*要素同士の余白*/
-    grid-template-columns: 1fr 1fr 1fr;
-    /*横幅の指定：一列に３つの要素を横に並べる。画面の幅に合わせて自動で伸縮できる。*/
-    margin-top: 6%;
-    margin-bottom: 50px;
-  }
-  
