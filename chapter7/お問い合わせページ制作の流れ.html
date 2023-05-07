@@ -89,11 +89,46 @@
         <u>Youtube動画を挿入しよう</u><br>
             <b>流れ</b>
             <ol>
-                <li><a href="https://www.youtube.com/">Youtubeから掲載したい動画を表示させる。</a></li>
+                <li><a href="https://www.youtube.com/">Youtube</a>から掲載したい動画を表示させる。</li>
                 <li>動画下にある共有<i class="fas fa-share"></i>をクリック</li>
                 <li>表示されたパネルで『埋め込む』をクリックする。</li>
                 <li>出てきたコードをコピーし、適切な箇所に貼り付ける。</li>
                 <li>動画の再生開始する位置を変更するには『開始位置』にチェックを入れ、何分何秒から開始したいかを入力する。</li>
             </ol>
+            <u>OGPの設定をしよう</u><br>
+                <p>OGPとは:Open Graph Protocolの略。SNSでWebサイトがシェアされたときにWebページのタイトルや説明文、画像などの情報を正しく伝えるための仕組み</p>
+                <p>例えばFacebook(画像サイズを横1200px、縦630pxを推奨している。)やTwitterでシェアされた時は、タイムライン上でURLtoタイトルが表示されるのみ。</p>
+                <p>OGPを使えば『画像』や『ページタイトル』、『説明文』が表示され見やすくなる。</p>
+                <p>事前にSNS上で表示したい画像を用意しておく。</p>
+                <p>他にも多くのオプション設定があるので<a href="https://developers.facebook.com/docs/sharing/webmasters/">公式ドキュメント</a>で確認する。</p>
+                <p><u>Facebook</u>で確認するには公式の確認ツールを使う<br>
+                    <a href="https://developers.facebook.com/tools/debug/sharing">シェアデバッカー開発者向け</a>
+                </p>
+                    <p>確認ツールを使うことで実際にSNSに何度も投稿しなくて済む。</p>
+                    <p>使い方：WebページのURLを入力し、『デバッグ』ボタンをクリックすると設定されている項目が表示される。エラーがあればその箇所を指摘してくれる。</p>
+                    <p>最初にチェックするときは『新しい情報を取得』ボタンをクリックする。</p>
+                <p><u>Twitter</u>で確認するには公式の確認ツールを使う<br>
+                    <a href="https://cards-dev.twitter.com/validator">Twitter公式確認ツール</a>
+                    <p>使い方:WebページのURLを入力し、『preview card』ボタンをクリックする。</p>
+                <table border="1">
+                    <tr>
+                        <th>追加するもの</th>
+                    </tr>
+                    <tr>
+                        <td> meta property="og:url" content="http://example.com/index.html"</td>
+                    </tr>   
+                    <tr>
+                        <td>meta property="og:type" content="website"</td>
+                    </tr>
+                    <tr>
+                        <td>meta property="og:title" content="WCB Cafe Home"</td>
+                    </tr>
+                    <tr>
+                        <td>meta property="og:description" content="おしゃれなカフェで癒やされてみませんか?無添加の食材で体の中からリフレッシュ。"</td>
+                    </tr>
+                    <tr>
+                        <td>meta property="og:image" content="http://example.com/images/ogp.jpg"</td>
+                    </tr>
+                </table>
     </body>
 </html>
