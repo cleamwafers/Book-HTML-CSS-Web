@@ -296,6 +296,30 @@ input[type="submit"] {
     cursor: pointer;
     line-height: 1;
 }
+/* 店舗情報・地図 */
+#location {
+    padding: 4% 0;
+}
+#location .wrapper {
+    display: flex;
+    /*Flexboxで横に並べる*/
+    justify-content: space-between;
+}
+.location-info {
+    width: 22%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 74%;
+}
+/* iframe */
+iframe {
+    width: 100%;
+    /*iframeタグが表示エリアからはみ出してお店情報と重なってしまうので幅を100%にして納まるようにする。*/
+}
+
   /* モバイル版
 ------------------------------- */
 @media (max-width: 600px) {
