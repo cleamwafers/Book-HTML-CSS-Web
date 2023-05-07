@@ -254,7 +254,13 @@ aside p {
     object-fit: cover;
     /*サイズからはみ出した部分を自動的にトリミングしてくれる。*/
 }  
-  
+  /* CONTACT
+------------------------------- */
+#contact {
+    background-image: url(../images/contact-bg.jpg);
+    min-height: 100vh;
+}
+
   /* モバイル版
 ------------------------------- */
 @media (max-width: 600px) {
