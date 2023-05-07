@@ -426,4 +426,19 @@ iframe {
     textarea {
         max-width: 100%;
     }
+     /* 店舗情報・地図 / SNS */
+     #location .wrapper,
+     #sns .wrapper {
+         flex-direction: column;
+         /*子要素を上から下へ縦に並べる。*/
+     }
+     .location-info,
+     .location-map,
+     .sns-box {
+         width: 100%;
+         /*幅いっぱいに要素が広がるようにする。*/
+     }
+     .sns-box {
+         margin-bottom: 30px;
+     }
 }
