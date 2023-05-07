@@ -260,7 +260,42 @@ aside p {
     background-image: url(../images/contact-bg.jpg);
     min-height: 100vh;
 }
-
+/* フォーム HTMLとCSSでは見た目の作成のみ
+稼働させるにはPHPなどのプログラミングが必要*/
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    /*textarea=セクレター,background=プロパティ,rgba=値*/
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+/*inputタグの各属性は角括弧で囲んで指定複数のセクレターに同じ指定をする場合はカンマで区切る。*/
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
   /* モバイル版
 ------------------------------- */
 @media (max-width: 600px) {
@@ -339,5 +374,16 @@ aside p {
     .big-box img {
          /*ちぐはぐな大きさを指定した範囲やサイズのもどす。*/
         height: auto;
+    }
+     /* CONTACT */
+     #contact .page-title {
+        margin-top: 40px;
+    }
+
+    /* フォーム */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        max-width: 100%;
     }
 }
