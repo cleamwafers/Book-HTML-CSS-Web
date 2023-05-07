@@ -35,7 +35,7 @@
             <a href="https://developers.facebook.com/docs/plugins/page-plugin?locale=ja_JP">Facebookプラグイン</a><br>
             <b>流れ</b>
                 →ページにアクセスして
-                ①以下の項目を設定。②設定が終わったら下のコードを取得ボタンをクリックする。
+                ①以下の項目を設定。②設定が終わったら下のコードを取得ボタンをクリックする。③表示されたコードを適切な箇所に貼り付ける。
             <h5>設定する項目</h5>  
              <table border="1">
                 <tr>
@@ -63,5 +63,27 @@
                     <td>チェックを入れる</td>
                 </tr>
              </table>
+            <u>Facebookプラグインをレスポンシブに対応させる</u><br>
+             <p>今回使用した『IFrameタブ』で取得したコードだと幅が固定されているので画面幅に合わせて幅を伸縮させられない。<br>
+                伸縮させるには『Java Script SDK』タブの方のコードを使用する。<br>
+                ※この方法だとHTMLファイルでは何も表示されずWebサーバーにアプロードしてから出ないとFacebookプラグインが表示されない。
+             </p>
+             <p>2種類のコードが書かれている</p>
+             <ol>
+                <li>Step2:今回作成したWCBCafeなら『body』タグのすぐ下に貼り付け</li>
+                <li>Step3:今回作成したWCBCafeなら『Facebookプラグイン』に貼り付け</li>
+             </ol>
+        <u>Twitterプラグインを挿入しよう</u><br>
+        <p>※コードを取得するページは英語のみ</p>
+        <b>流れ</b>
+        <ol>
+            <li>→ページにアクセスして</li>
+            <li>Enter a Twitter URLと書かれた入力欄にTwitterのURLを入力しEnter。</li>
+            <li>Here are your dispkay optionの画面になる。Embedded Timelineをクリック</li>
+            <li>コードが表示されるがサイズをカスタマイズしたいのでset 『customization options』リンクをクリック。</li>
+            <li>『height(px)』の欄に『315』と書き、高さを指定。その他のランは必要があれば変更する。</li>
+            <li>『Updateボタン』をクリックするとコードが表示されるのでコピーして適切な箇所に貼り付ける。</li>
+        </ol>
+        <p>※色やサイズをカスタマイズしたいときは『set customization options』リンクをクリックして設定する。Twitterプラグインはレスポンシブに対応している。</p>
     </body>
 </html>
