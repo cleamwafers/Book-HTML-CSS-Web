@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>お問合せページの作成の流れ</title>
         <meta name="description" content="お問合せページ作成の流れ">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <u>作成するページ</u>
@@ -25,10 +26,42 @@
                 <li>レスポンシブに対応させる</li>
                     <p>メディアクリーを使って横並びにしている地図やSNSプラグインを縦に並べる。</p>
             </ol>
-        <u>コンタクトフォームサービスを利用しよう</u>
-        <a href="https://www.google.com/intl/ja-jp/forms/about">Googleフォーム</a>
-        <p>手軽に作成出来る</p>
-        <a href="https://form.run/ja">formrun</a>
-        <p>視覚的に管理できる。３つまでは無料で利用できる。</p>
+        <u>コンタクトフォームサービスを利用しよう</u><br>
+            <a href="https://www.google.com/intl/ja-jp/forms/about">Googleフォーム</a>
+                <p>手軽に作成出来る</p>
+            <a href="https://form.run/ja">formrun</a>
+                <p>視覚的に管理できる。３つまでは無料で利用できる。</p>
+        <u>Facebookプラグインを挿入しよう</u><br>
+            <a href="https://developers.facebook.com/docs/plugins/page-plugin?locale=ja_JP">Facebookプラグイン</a><br>
+            <b>流れ</b>
+                →ページにアクセスして
+                ①以下の項目を設定。②設定が終わったら下のコードを取得ボタンをクリックする。
+            <h5>設定する項目</h5>  
+             <table border="1">
+                <tr>
+                    <th>項目</th>
+                    <th>設定</th>
+                </tr>
+                <tr>
+                    <td>FacsbookページのURL</td>
+                    <td>https://www.facebook.com/から始まるFacebookページのURL</td>
+                </tr>
+                <tr>
+                    <td>タブ</td>
+                    <td>timeline</td>
+                </tr>
+                <tr>
+                    <td>幅</td>
+                    <td>指定なし(空にする)</td>
+                </tr>
+                <tr>
+                    <td>高さ</td>
+                    <td>315</td>
+                </tr>
+                <tr>
+                    <td>plugin containerの幅に合わせる</td>
+                    <td>チェックを入れる</td>
+                </tr>
+             </table>
     </body>
 </html>

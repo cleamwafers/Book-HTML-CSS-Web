@@ -304,6 +304,7 @@ input[type="submit"] {
     display: flex;
     /*Flexboxで横に並べる*/
     justify-content: space-between;
+    /*space-between=横並びの要素を両端揃えで均等に配置する。*/
 }
 .location-info {
     width: 22%;
@@ -318,6 +319,21 @@ input[type="submit"] {
 iframe {
     width: 100%;
     /*iframeタグが表示エリアからはみ出してお店情報と重なってしまうので幅を100%にして納まるようにする。*/
+}
+/* SNS */
+#sns {
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+.sns-box {
+    width: 30%;
 }
 
   /* モバイル版
